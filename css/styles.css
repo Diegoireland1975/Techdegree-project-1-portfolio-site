@@ -133,11 +133,15 @@ ul.skills {
 .skills li:last-child {
   margin-bottom: 1rem;
 }
-/* Resume Page*/
+/* Experience Page*/
 .main-image {
   display: block;
   margin: 0 auto;
   margin-bottom: 1rem;
+  transition: border-radius 0.3s ease-in-out;
+}
+.main-image:hover {
+  border-radius: 50%;
 }
 .skills span {
   color: #000;
