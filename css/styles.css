@@ -83,6 +83,7 @@ header {
 }
 .profile-image:hover {
   transform: scale(1.1) rotate(360deg);
+  cursor: pointer;
 }
 .tag {
   background-color: #999;
@@ -145,6 +146,7 @@ ul.skills {
 .main-image:hover {
   border-radius: 50%;
   filter: grayscale(100%);
+  cursor: pointer;
 }
 .skills span {
   color: #000;
