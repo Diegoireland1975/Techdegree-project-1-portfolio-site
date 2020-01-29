@@ -60,7 +60,9 @@ a:hover {
 .main-nav a.current {
   border-color: #ff9904;
 }
-
+.name a:hover {
+  border-color: transparent;
+}
 header {
   text-align: center;
   background: url("../images/cividale.jpg") no-repeat center center;
@@ -138,10 +140,11 @@ ul.skills {
   display: block;
   margin: 0 auto;
   margin-bottom: 1rem;
-  transition: border-radius 0.3s ease-in-out;
+  transition: border-radius, filter, 0.3s ease-in-out;
 }
 .main-image:hover {
   border-radius: 50%;
+  filter: grayscale(100%);
 }
 .skills span {
   color: #000;
@@ -159,6 +162,9 @@ ul.skills {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all 0.5s;
+}
+.resume h2 {
+  margin-bottom: 1rem;
 }
 .resume:hover {
   border-color: #ff99ff;
