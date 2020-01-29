@@ -143,9 +143,10 @@ ul.skills {
   margin-bottom: 1rem;
   transition: border-radius, filter, 0.25s ease-in-out;
   border: 3px solid #000;
+  width: 90%;
 }
 .main-image:hover {
-  border-radius: 50%;
+  border-radius: 10%;
   filter: grayscale(100%);
   cursor: pointer;
 }
