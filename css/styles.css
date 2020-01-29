@@ -142,6 +142,7 @@ ul.skills {
   margin: 0 auto;
   margin-bottom: 1rem;
   transition: border-radius, filter, 0.25s ease-in-out;
+  border: 3px solid #000;
 }
 .main-image:hover {
   border-radius: 50%;
