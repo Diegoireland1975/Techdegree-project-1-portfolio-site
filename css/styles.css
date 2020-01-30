@@ -82,6 +82,7 @@ header {
   margin-top: 4rem;
   width: 150px;
   height: 150px;
+  object-fit: cover;
   border-radius: 50%;
   border: 3px solid #fff;
   transition: all 0.5s;
