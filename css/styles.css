@@ -173,6 +173,29 @@ ul.skills {
 .resume:hover {
   border-color: #ff99ff;
 }
+/* Gallery page */
+.gallery {
+  padding-top: 6rem;
+}
+.gallery img {
+  border: 10px solid #000;
+  filter: grayscale(100%);
+  transition: all 1s ease-in-out;
+  margin-bottom: 1rem;
+}
+.gallery img:hover {
+  filter: grayscale(0);
+  transform: scale(0.9);
+}
+.gallery-content {
+  padding: 1rem;
+}
+.gallery h1 {
+  margin: 2rem 0;
+  border-bottom: 5px solid #ff9904;
+  display: inline-block;
+  text-align: center;
+}
 
 footer {
   width: 100%;
