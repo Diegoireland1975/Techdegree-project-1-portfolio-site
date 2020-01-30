@@ -200,6 +200,7 @@ ul.skills {
   padding: 1rem;
 }
 .gallery h1 {
+  font-size: 1.5rem;
   margin: 2rem 0;
   border-bottom: 5px solid #ff9904;
   display: inline-block;
@@ -303,6 +304,9 @@ a.social:hover {
     font-size: 1.3rem;
     max-width: 1200px;
     margin: 3rem auto;
+  }
+  .gallery h1 {
+    font-size: 2rem;
   }
   .gallery-content {
     padding: 1rem;
