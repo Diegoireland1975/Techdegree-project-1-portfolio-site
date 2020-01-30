@@ -11,6 +11,10 @@ body {
   color: #222;
   background: #f7f5f0;
 }
+img {
+  display: inline-block;
+  width: 100%;
+}
 /* Link Styles */
 
 li {
