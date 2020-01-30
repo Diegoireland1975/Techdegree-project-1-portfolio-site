@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/lightbox.min.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900"
       rel="stylesheet"
@@ -25,15 +26,48 @@
     <div class="gallery">
       <h1>Some Picture I took it myself</h1>
       <div class="gallery-content">
-        <img src="images/kilkenny.jpg" alt="image of Kilkenny town" />
-        <img src="images/kilkenny1.jpg" alt="Kilkenny Castle" />
-        <img
-          src="images/lago-wicklow.jpg"
-          alt="Lake of Wicklow just outside Dublin"
-        />
-        <img src="images/phoenix-park1.jpg" alt="Phoenix Park in Dublin" />
-        <img src="images/phoenix-park2.jpg" alt="Phoenix Park in Dublin" />
-        <img src="images/phoenix-park3.jpg" alt="Phoenix Park in Dublin" />
+        <a
+          href="images/kilkenny-big.jpg"
+          data-lightbox="mygallery"
+          data-title="Kilkenny Town in Ireland"
+          ><img src="images/kilkenny.jpg" alt="image of Kilkenny town"
+        /></a>
+        <a
+          href="images/kilkenny1-big.jpg"
+          data-lightbox="mygallery"
+          data-title="Kilkenny Castle in Ireland"
+          ><img src="images/kilkenny1.jpg" alt="Kilkenny Castle"
+        /></a>
+        <a
+          href="images/lago-wicklow-big.jpg"
+          data-lightbox="mygallery"
+          data-title="Wicklow Lake in County Wicklow Ireland"
+          ><img
+            src="images/lago-wicklow.jpg"
+            alt="Lake of Wicklow just outside Dublin"
+        /></a>
+        <a
+          href="images/phoenix-park1-big.jpg"
+          data-lightbox="mygallery"
+          data-title="A Beautiful Sunset in Phoenix Park Dublin Ireland"
+          ><img
+            src="images/phoenix-park1.jpg"
+            alt="sunset at the Phoenix Park in Dublin"
+        /></a>
+        <a
+          href="images/phoenix-park2-big.jpg"
+          data-lightbox="mygallery"
+          data-title="Wellington Monument Phoenix Park Dublin Ireland"
+          ><img
+            src="images/phoenix-park2.jpg"
+            alt="Wellington Monument Phoenix Park in Dublin"
+        /></a>
+        <a
+          href="images/phoenix-park3-big .jpg"
+          data-lightbox="mygallery"
+          data-title="Trees in Phoenix Park Dublin Ireland"
+          ><img src="images/phoenix-park3.jpg" alt="Phoenix Park in Dublin"
+        /></a>
       </div>
     </div>
     <footer>
@@ -44,5 +78,6 @@
       </ul>
       <p class="copyright">&copy; 2015, Diego Raffa</p>
     </footer>
+    <script src="js/lightbox-plus-jquery.js"></script>
   </body>
 </html>
