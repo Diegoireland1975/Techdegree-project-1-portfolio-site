@@ -205,6 +205,7 @@ ul.skills {
   border-bottom: 5px solid #ff9904;
   display: inline-block;
   text-align: center;
+  text-transform: uppercase;
 }
 footer {
   width: 100%;
