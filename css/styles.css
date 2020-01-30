@@ -191,6 +191,8 @@ ul.skills {
   filter: grayscale(100%);
   transition: all 1s ease-in-out;
   margin-bottom: 1rem;
+  width: 90%;
+  margin: 0 auto;
 }
 .gallery img:hover {
   filter: grayscale(0);
