@@ -191,7 +191,7 @@ ul.skills {
   filter: grayscale(100%);
   transition: all 1s ease-in-out;
   margin-bottom: 1rem;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 .gallery img:hover {
@@ -310,6 +310,10 @@ a.social:hover {
   }
   .gallery h1 {
     font-size: 2rem;
+  }
+  .gallery img {
+    width: 90%;
+    margin: 0 auto;
   }
   .gallery-content {
     padding: 1rem;
