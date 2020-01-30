@@ -67,6 +67,7 @@ a:hover {
 .name a:hover {
   border-color: transparent;
 }
+
 header {
   text-align: center;
   background: url("../images/cividale.jpg") no-repeat center center;
@@ -87,7 +88,6 @@ header {
 }
 .profile-image:hover {
   transform: scale(1.1) rotate(360deg);
-  cursor: pointer;
 }
 .tag {
   background-color: #999;
@@ -140,19 +140,18 @@ ul.skills {
 .skills li:last-child {
   margin-bottom: 1rem;
 }
-/* Experience Page*/
+/* Resume Page*/
 .main-image {
   display: block;
   margin: 0 auto;
   margin-bottom: 1rem;
   transition: border-radius, filter, 0.25s ease-in-out;
   border: 3px solid #000;
-  width: 90%;
+  width: 70%;
 }
 .main-image:hover {
   border-radius: 10%;
   filter: grayscale(100%);
-  cursor: pointer;
 }
 .skills span {
   color: #000;
@@ -163,7 +162,7 @@ ul.skills {
 }
 .resume {
   margin: 0 auto;
-  padding: 10.5rem 3rem;
+  padding: 10.5rem 3rem 0;
   max-width: 500px;
   text-align: center;
   background: #fff;
@@ -171,8 +170,14 @@ ul.skills {
   border-radius: 6px;
   transition: all 0.5s;
 }
+.resume h1 {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
 .resume h2 {
   margin-bottom: 1rem;
+  font-size: 1.4rem;
+  text-transform: capitalize;
 }
 .resume:hover {
   border-color: #ff99ff;
@@ -200,7 +205,6 @@ ul.skills {
   display: inline-block;
   text-align: center;
 }
-
 footer {
   width: 100%;
   min-height: 30px;
@@ -275,6 +279,24 @@ a.social:hover {
 
   main p {
     line-height: 1.6rem;
+  }
+  .main-image {
+    width: 90%;
+  }
+  .resume {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 900px;
+  }
+  .resume h2 {
+    font-size: 1.5rem;
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .skills {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: center;
   }
 
   footer {
